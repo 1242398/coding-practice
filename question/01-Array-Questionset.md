@@ -5,7 +5,8 @@ Given two strings s1 and s2 of equal length, determine whether s2 is a rotation 
 A string is said to be a rotation of another if it can be obtained by shifting some 
 leading characters of the original string to its end without changing the order of characters.
 </p>
-```aiignore
+
+```
 Input: s1 = "abcd", s2 = "cdab"
 Output: true
 Explanation: After 2 right rotations, s1 will become equal to s2.
@@ -17,6 +18,5 @@ Explanation: After 1 left rotation, s1 will become equal to s2.
 Input: s1 = "abcd", s2 = "acbd"
 Output: false
 Explanation: Strings are not rotations of each other.
-
 
 ```
